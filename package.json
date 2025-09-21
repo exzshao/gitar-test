@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"tests passed\" && exit 0"
+    "test": "echo \"tests passed\" && exit 0",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "eslint": "^9.36.0"
   }
 }
