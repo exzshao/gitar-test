@@ -14,7 +14,7 @@ export default [
       }
     },
     rules: {
-      "semi": ["error", "always"] // Enforce semicolons
+        "semi": ["error", "always"] // Enforce semicolons
     }
   }
 ];
