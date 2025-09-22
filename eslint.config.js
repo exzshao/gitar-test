@@ -1,6 +1,6 @@
 // eslint.config.js
-import globals from "globals"
-import js from "@eslint/js"
+import globals from "globals";
+import js from "@eslint/js";
 
 export default [
   // Use the recommended rules from ESLint
@@ -14,7 +14,7 @@ export default [
       }
     },
     rules: {
-        "semi": ["error", "never"] // Enforce no semicolons
+        "semi": ["error", "always"] // Enforce semicolons
     }
   }
-]
+];
